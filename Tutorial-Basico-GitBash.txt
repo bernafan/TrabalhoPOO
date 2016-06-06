@@ -1,0 +1,16 @@
+1) PASSO: Clonar o repositório..
+
+git clone https://github.com/bernafan/TrabalhoPOO
+
+2) PASSO: Depois de uma alteração..
+
+git add *
+
+3) PASSO: Confirmar as alterações..
+
+git commit -m "Comentario sobre o que foi alterado"
+
+4) PASSO: Subir as alterações(Colocar o usario e senha do github)
+
+git push origin
+
