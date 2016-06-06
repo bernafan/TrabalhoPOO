@@ -14,3 +14,6 @@ git commit -m "Comentario sobre o que foi alterado"
 
 git push origin
 
+OBS: Sempre que for alterar a pasta, atualize-a antes, para evitar erros!!
+
+git pull	
