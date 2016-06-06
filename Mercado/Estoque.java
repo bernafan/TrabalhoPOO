@@ -9,9 +9,6 @@ package Mercado;
  *
  * @author Bernardo
  */
-public class Cliente {
-	public String nome;
-	public String cpf;
-        
-        public String meucu;
+public class Estoque {
+    
 }

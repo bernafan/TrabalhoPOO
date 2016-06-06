@@ -9,9 +9,11 @@ package Mercado;
  *
  * @author Bernardo
  */
-public class Cliente {
-	public String nome;
-	public String cpf;
-        
-        public String meucu;
+public class Item {
+    public Produto p;
+    public int qtd;
+    
+    public float subTotal() {
+        return (float) (p.getValor()*qtd);
+    }
 }
