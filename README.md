@@ -4,7 +4,3 @@
 
 - Comandos básicos para adicionar, confirmar e enviar as alterações para o repositório:
   
-  git add *
-  git commit -m "Comentarios"
-  git push origin
-  
