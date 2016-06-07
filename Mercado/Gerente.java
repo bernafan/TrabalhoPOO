@@ -1,16 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Mercado;
+package Mercado.Funcionarios;
 
-/**
- *
- * @author bfmel
- */
-public class Gerente {
-    private String nome;
+import Mercado.Venda.Funcionario;
+import Mercado.Venda.Produto;
+
+public class Gerente extends Funcionario {
+	private String nome;
     private int id;
    
     public Gerente(String nome, int id){
@@ -30,7 +24,7 @@ public class Gerente {
         return this.id;
     }
     public void setValorProduto(Produto p, float custo) {
-        p.custo = custo;
+        p.setCusto(custo);
     }
     public String toString() {
         String mensagem;
