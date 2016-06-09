@@ -2,11 +2,10 @@ package mercado.entidade;
 
 
 public class Vendedor extends Funcionario {
-	private static int geradorId = 0;
+	private static int geradorDeId = 0;
 	
-	public Vendedor(String nome){
-        this.nome = nome;
-        Vendedor.geradorId++;
-        this.id = "V" + geradorId;
+	public Vendedor(){
+        Vendedor.geradorDeId++;
+        this.id = "V" + geradorDeId;
     }
 }

@@ -1,6 +1,6 @@
-package Mercado.Venda;
+package mercado.Venda;
 
-import Mercado.Clientes.Cliente;
+import mercado.entidade.Cliente;
 
 public class Pedido {
 	 public int codigo;

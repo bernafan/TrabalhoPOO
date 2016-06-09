@@ -1,4 +1,4 @@
-package Mercado.Venda;
+package mercado.Venda;
 
 import mercado.entidade.Produto;
 
