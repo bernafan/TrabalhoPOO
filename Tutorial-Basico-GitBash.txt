@@ -17,3 +17,7 @@ git push origin
 OBS: Sempre que for vizualizar/alterar a pasta, atualize-a antes, para evitar erros!!
 
 git pull	
+
+OBS2: Mudar de branch.. entre no diretorio do projeto, e digite:
+
+git checkout nomeDaBranch
