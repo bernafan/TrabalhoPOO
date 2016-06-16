@@ -7,9 +7,7 @@ public class ServicoFuncionarioAppService {
 	
 	private FuncionariosRepository funcionariosRepository;
 	
-	
-	/*public String VerificaTipoFuncionario(Funcionario Funcionario) {
-		
+	public String VerificaTipoFuncionario(Funcionario Funcionario) {
 		if (Funcionario.getId().toUpperCase().equals("G")){
 			return "GERENTE";
 		}
@@ -17,17 +15,23 @@ public class ServicoFuncionarioAppService {
 			return "VENDEDOR";
 		}
 		return null;
-	}*/
+	}
 	
+	// melhor OO
+	public void insereFuncionario(Funcionario func) {
+		funcionariosRepository.insere(func);
+	}
+	
+	// Pior OO
 	public void incluirFuncionario(Funcionario funcionario) {
-		/*
+		
 		if(VerificaTipoFuncionario(funcionario).equals("GERENTE")) {
 			funcionariosRepository.insereNoGerenteRepository(funcionario);
 		}
 		if(VerificaTipoFuncionario(funcionario).equals("VENDEDOR")) {
 			funcionariosRepository.insereNoVendedorRepository(funcionario);
-		}*/
-		
-		funcionariosRepository.insere(funcionario);
+		}
 	}
+	
+	
 }

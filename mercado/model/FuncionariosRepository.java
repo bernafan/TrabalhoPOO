@@ -8,23 +8,18 @@ import mercado.entidade.Vendedor;
 
 public class FuncionariosRepository {
 	
-	
-	public ArrayList<Funcionario> FuncionarioRepository;
+	// melhor orientação a objetos
+	private ArrayList<Funcionario> FuncionarioRepository;
 	
 	public void insere(Funcionario funcionario) {
 		FuncionarioRepository.add(funcionario);
 	}
 
+
 	
-	public void imprimeFuncionarios() {
-		System.out.println("Gerentes");
-		System.out.println(FuncionarioRepository);
-		System.out.println("Vendedores");
-		System.out.println(FuncionarioRepository);
-	}
-	
-	/*public ArrayList<Gerente> gerenteRepository;
-	public ArrayList<Vendedor> vendedorRepository;
+	// pior orientação a objetos(repositorios separados)
+	private ArrayList<Gerente> gerenteRepository;
+	private ArrayList<Vendedor> vendedorRepository;
 	
 	public void insereNoVendedorRepository(Funcionario funcionario) {
 		Vendedor vendedor = (Vendedor) funcionario;
@@ -36,12 +31,13 @@ public class FuncionariosRepository {
 		gerenteRepository.add(gerente);
 	}
 	
+	
 	public void imprimeFuncionarios() {
 		System.out.println("Gerentes");
-		System.out.println(gerenteRepository);
-		System.out.println("Gerentes");
-		System.out.println(gerenteRepository);
-	}*/
+		System.out.println(FuncionarioRepository);
+		System.out.println("Vendedores");
+		System.out.println(FuncionarioRepository);
+	}
 	
 	
 }

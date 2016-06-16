@@ -22,6 +22,7 @@ public class ServicosProdutoAppService {
 	
 	// Deveria ficar em estoque?!
 	public int verficarQuantidadeNoEstoque(Produto produto) {
+		
 		return 0;
 		
 	}

@@ -15,19 +15,7 @@ public class Main {
 
 	}
 	
-	/*public static Funcionario geraFuncionario() {
-		Scanner teclado = new Scanner(System.in);
-		System.out.println("g para gerente ou v para vendedor");
-		String opcao = teclado.next().trim();
-		Funcionario f = null;
-		if(opcao.equals('g')) {
-			f = geraGerente(f);
-		}else if( opcao.equals('v') ){
-			f = geraVendedor(f);
-		}
-			
-		return f;
-	}
+	/*
 	
 	public static Funcionario geraGerente(Funcionario f) {
 		Scanner teclado1 = new Scanner(System.in);

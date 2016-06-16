@@ -1,6 +1,5 @@
 package mercado.entidade;
 
-
 public class Vendedor extends Funcionario {
 	private static int geradorDeId = 0;
 	
