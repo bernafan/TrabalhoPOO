@@ -15,8 +15,10 @@ public class FuncionariosRepository {
 		FuncionarioRepository.add(funcionario);
 	}
 
-
-	
+	public void remove(Funcionario funcionario) {
+		FuncionarioRepository.remove(funcionario);
+	}
+	/*
 	// pior orientação a objetos(repositorios separados)
 	private ArrayList<Gerente> gerenteRepository;
 	private ArrayList<Vendedor> vendedorRepository;
@@ -38,6 +40,6 @@ public class FuncionariosRepository {
 		System.out.println("Vendedores");
 		System.out.println(FuncionarioRepository);
 	}
-	
+	*/
 	
 }
