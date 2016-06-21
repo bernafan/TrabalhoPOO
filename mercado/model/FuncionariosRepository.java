@@ -9,14 +9,18 @@ import mercado.entidade.Vendedor;
 public class FuncionariosRepository {
 	
 	// melhor orientação a objetos
-	private ArrayList<Funcionario> FuncionarioRepository;
+	private ArrayList<Funcionario> funcionarioRepository;
 	
 	public void insere(Funcionario funcionario) {
-		FuncionarioRepository.add(funcionario);
+		funcionarioRepository.add(funcionario);
 	}
 
 	public void remove(Funcionario funcionario) {
-		FuncionarioRepository.remove(funcionario);
+		funcionarioRepository.remove(funcionario);
+	}
+	
+	public Funcionario retornaFuncionario() {
+		funcionarioRepository.
 	}
 	/*
 	// pior orientação a objetos(repositorios separados)

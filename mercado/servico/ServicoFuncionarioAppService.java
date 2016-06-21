@@ -17,6 +17,10 @@ public class ServicoFuncionarioAppService {
 		funcionariosRepository.remove(func);
 	}
 	
+	public Funcionario retornaFuncionario(String idFuncionario) {
+		funcionariosRepository.
+	}
+	
 	// Pior OO
 	
 	/*public String VerificaTipoFuncionario(Funcionario Funcionario) {

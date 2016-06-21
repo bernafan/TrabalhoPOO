@@ -2,15 +2,18 @@ package mercado.entidade;
 
 
 public class Pedido {
-	public int codigo;
-	public Item_Pedido[] itens;
+	private static int GeradorDeCodigo = 0;
+	private int id;
+	private Item_Pedido[] itens;
 	 
-	public int getCodigo() {
-		return codigo;
+	public Pedido() {
+		GeradorDeCodigo++;
+		id = GeradorDeCodigo;
 	}
-	public void setCodigo(int codigo) {
-		this.codigo = codigo;
+	public int getId() {
+		return id;
 	}
+	
 	public Item_Pedido[] getItens() {
 		return itens;
 	}
